@@ -23,7 +23,7 @@ class Converter:
             4. Change Function Call
             5. Exit\n''')
             if inp == "1":
-                outF = open("output.txt", "w")
+                outF = open(os.path.join(os.path.dirname(__file__),"output.txt"), "w")
                 outF.write(self.Convert())
                 outF.close()
                 print("Output saved to output.txt")
@@ -61,7 +61,7 @@ class Converter:
                     string += self.delimiter + "\n"
             
             i += t
-            string += self.ender + " in " + "\n" + self.functionCall % ("qlst"+str(q)) + "\n"
+            string += self.ender + " in " + "\n" + self.functionCall % ("qlst"+str(q)) + "\n\n" 
             q+=1
             if i >= len(self.file):
                 break

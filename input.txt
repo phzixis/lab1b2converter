@@ -1,0 +1,12 @@
+4
+Fire Bolt 10
+Fire Ball 5
+Sight 1
+Fire Wall 10
+6
+Fire Bolt 9
+Fire Bolt 1
+Fire Ball 2
+Sight 1
+Fire Ball 4
+Fire Wall 10

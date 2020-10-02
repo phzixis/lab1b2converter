@@ -1,0 +1,6 @@
+val q1 : bool = true
+val q2 : bool = true
+val q3 : bool = false
+val q4 : bool = false
+val q5 : bool = false
+val q6 : bool = false

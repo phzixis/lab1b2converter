@@ -10,3 +10,5 @@ How to use:
 
 
 If you want to add new test cases, just create a pull request and I'll approve it.
+
+Test cases can be found in input.txt and their corresponding answers in answers.txt

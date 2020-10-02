@@ -4,7 +4,7 @@ class Converter:
     def __init__(self):
         self.spellList = ["Stone Curse", "Lightning Bolt", "Thunder Storm", "Cold Bolt", "Frost Driver", "Fire Bolt", 
         "Fire Ball", "Fire Wall", "Sight", "Napalm Beat", "Soul Strike", "Safety Wall", "Increase SP Recovery"]
-        self.spellDict = {"S1tone Curse":"Stone Curse", "Lightning Bolt": "Lightning Bolt", "Thunder Storm":"Thunder Storm", "Cold Bolt":"Cold Bolt", "Frost Driver":"Frost Driver", "Fire Bolt":"Fire Bolt", 
+        self.spellDict = {"Stone Curse":"Stone Curse", "Lightning Bolt": "Lightning Bolt", "Thunder Storm":"Thunder Storm", "Cold Bolt":"Cold Bolt", "Frost Driver":"Frost Driver", "Fire Bolt":"Fire Bolt", 
         "Fire Ball":"Fire Ball", "Fire Wall":"Fire Wall", "Sight":"Sight", "Napalm Beat":"Napalm Beat", "Soul Strike":"Soul Strike", "Safety Wall":"Safety Wall", "Increase SP Recovery":"Increase SP Recovery"}
         self.starter = "["
         self.content = "(%s, %s)"
@@ -88,9 +88,19 @@ class Converter:
         self.functionCall = fc[:num] + "%s" + fc[num+1:]
 
     def ChangeSpellList(self):
-        for i in range(len(self.spellList)):
-            self.spellDict[self.spellList[i]] = input("Change name for " + self.spellList[i]+"\n")
-    
+        while True:
+            for i in range(len(self.spellList)):
+                print(str(i+1) + ". " + self.spellList[i] + ": " + self.spellDict[self.spellList[i]])
+            print("14. CHANGE ALL")
+            inp = input("Input a number which you want to change (1-14). enter anything else to exit\n")
+            willExit = True
+            for j in range(1,14):
+                if str(j) == inp or inp == "14":
+                    self.spellDict[self.spellList[j-1]] = input("Change name for " + self.spellList[j-1]+"\n")
+                    willExit = False
+            if willExit:
+                break;
+
     def ChangeMiddle(self):
         num1 = 0
         num2 = 0

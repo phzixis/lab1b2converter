@@ -26,3 +26,137 @@ Sight 1
 Fire Wall 10
 Fire Ball 10
 Fire Bolt 10
+7
+Stone Curse 1
+Lightning Bolt 1
+Cold Bolt 1
+Fire Bolt 1
+Sight 1
+Napalm Beat 1
+Increase SP Recovery 1
+14
+Stone Curse 1
+Lightning Bolt 4
+Thunder Storm 1
+Cold Bolt 5
+Frost Driver 1
+Fire Bolt 4
+Fire Ball 5
+Sight 1
+Fire Wall 1
+Napalm Beat 4
+Soul Strike 5
+Napalm Beat 3
+Safety Wall 1
+Increase SP Recovery 1
+1
+Stone Curse 10
+2
+Thunder Storm 10
+Lightning Bolt 10
+2
+Lightning Bolt 3
+Thunder Storm 10
+2
+Lightning Bolt 4
+Thunder Storm 10
+2
+Frost Driver 10
+Cold Bolt 10
+2
+Cold Bolt 4
+Frost Driver 10
+2
+Cold Bolt 5
+Frost Driver 10
+2
+Fire Ball 10
+Fire Bolt 10
+2
+Fire Bolt 3
+Fire Ball 10
+2
+Fire Bolt 4
+Fire Ball 10
+4
+Fire Wall 10
+Fire Ball 10
+Fire Bolt 10
+Sight 1
+4
+Sight 1
+Fire Bolt 4
+Fire Ball 4
+Fire Wall 1
+4
+Sight 1
+Fire Bolt 3
+Fire Ball 5
+Fire Wall 1
+3
+Fire Bolt 4
+Fire Ball 5
+Fire Wall 1
+2
+Sight 1
+Fire Wall 1
+4
+Sight 1
+Fire Bolt 4
+Fire Ball 5
+Fire Wall 1
+2
+Soul Strike 10
+Napalm Beat 10
+2
+Napalm Beat 3
+Soul Strike 1
+2
+Napalm Beat 4
+Soul Strike 1
+3
+Safety Wall 10
+Soul Strike 10
+Napalm Beat 10
+3
+Napalm Beat 4
+Soul Strike 5
+Safety Wall 1
+4
+Napalm Beat 3
+Soul Strike 5
+Napalm Beat 4
+Safety Wall 1
+2
+Napalm Beat 7
+Safety Wall 1
+2
+Soul Strike 5
+Safety Wall 1
+4
+Napalm Beat 4
+Soul Strike 5
+Napalm Beat 3
+Safety Wall 1
+1
+Thunder Storm 1
+1
+Frost Driver 1
+1
+Fire Ball 1
+1
+Fire Wall 1
+1
+Soul Strike 1
+1
+Safety Wall 1
+4
+Lightning Bolt 1
+Lightning Bolt 1
+Lightning Bolt 1
+Thunder Storm 1
+4
+Lightning Bolt 1
+Lightning Bolt 2
+Lightning Bolt 1
+Thunder Storm 1

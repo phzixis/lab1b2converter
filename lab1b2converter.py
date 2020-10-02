@@ -51,8 +51,10 @@ class Converter:
             for j in range(t):
                 words = self.file[i+j].split(" ")
                 name = words[0]
-                if len(words) == 3:
+                if len(words) >= 3:
                     name += " " + words[1]
+                if len(words) == 4:
+                    name += " " + words[2]
                 num = int(words[len(words)-1])
                 if j != 0:
                     string += "\t"
